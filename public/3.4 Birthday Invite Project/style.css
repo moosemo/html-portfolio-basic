@@ -1,0 +1,57 @@
+body{
+    background-color: #F0E967;
+}
+
+.content{
+    text-align: center;
+}
+
+ul{
+    /* Centers Unordered List */
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    color: #2A35DB;
+}
+
+img{
+    /* object-fit: cover; (It did nothing.)*/
+    border-radius: 15%;
+}
+
+p{
+    font-family: Roboto, sans-serif;
+    color:  #2A35DB;
+}
+
+h1{
+    font-family: 'Concert One', cursive;
+    color: #8143F0;
+}
+
+h2, h3{
+    color: #F81E6F;
+}
+
+/* .cake-crop{
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+.cake-img{
+    display: inline;
+    margin: 0 auto;
+    /* Code below centers the image.
+    margin-left: -25%;
+    height: 100%;
+    width: auto;
+} */
+
+.point-img{
+    width: 3rem;
+    height: auto;
+}

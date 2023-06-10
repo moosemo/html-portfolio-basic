@@ -1,0 +1,138 @@
+body{
+    color: white;
+    background-color: #051383;
+}
+
+hr{
+    border-top: 0.5rem dashed #E6B709;
+    border-bottom: 0;
+}
+
+img{
+    /* display: inline; */
+    /* max-width: 100%;
+    height: auto;
+    border-radius: 50%; */
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+
+img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+
+/* TITLE */
+
+.headers{
+    text-align: center;
+}
+
+/* CONTAINER DIV */
+
+.content{
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+}
+
+/* SPIRITED AWAY MOVIE */
+
+/* .movie1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+} */
+
+.spirit{
+    width: 40%;
+    height: 35%;
+    object-fit: cover;
+    /* object-position: 100% 0; */
+    border-radius: 10%;
+}
+
+/* .spirit-image{
+    width: 50%;
+    height: 40%;
+    overflow: hidden;
+    position: relative;
+} */
+
+.spirit-text{
+    /* border: 1px solid black; */
+    width: 40%;
+}
+
+.spirit-button{
+    margin-top: 2%;
+}
+
+/* INTERSTELLAR MOVIE */
+
+.movie2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+
+.space{
+    width: 40%;
+    height: 35%;
+    object-fit: cover;
+    /* object-position: 100% 0; */
+    border-radius: 10%;
+}
+
+.space-text{
+    /* border: 1px solid black; */
+    width: 40%;
+}
+
+.space-button{
+    margin-top: 2%;
+}
+
+
+/* .movie2{
+    float: left;
+}
+
+.movie3{
+    float: left;
+}
+
+.spirit-padding{
+    padding-bottom: 3%;
+    display: inline-block;
+}
+
+.space-padding{
+    padding-bottom: 3%;
+
+}
+
+.zombie-padding{
+    padding-bottom: 3%;
+
+}
+
+.spirit{
+    border: 0.3rem solid white;
+
+}
+
+.space{
+    border: 0.3rem solid white;
+
+}
+
+.zombie{
+    border: 0.3rem solid white;
+
+} */
